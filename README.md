@@ -1,6 +1,4 @@
-# Web-page-of-Fashion-Boutique
-Sapna Fashion Boutique – A modern and responsive fashion boutique website built with HTML &amp; CSS, featuring Home, Collections, About, and Contact pages with an elegant and user-friendly design.
-# 👗 Sapna Fashion Boutique
+ # 👗 Sapna Fashion Boutique
 
 Sapna Fashion Boutique is a simple and elegant **fashion boutique website** created using **HTML and CSS**. The website provides a clean and user-friendly interface to showcase fashion collections and boutique information.
 
