@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Collection | Sapna Fashion Boutique</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg,#183328,#1f3b2c);
+      color: #fff;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: rgba(0,0,0,0.2);
+      backdrop-filter: blur(10px);
+    }
+
+    header h2 {
+      font-family: 'Playfair Display', serif;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #f2b77c;
+    }
+
+    /* PAGE TITLE */
+    .title {
+      text-align: center;
+      margin: 60px 0 30px;
+    }
+
+    .title h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+    }
+
+    .title p {
+      opacity: 0.8;
+      margin-top: 10px;
+    }
+
+    /* PRODUCT GRID */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap: 30px;
+      padding: 40px 60px 80px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: 0.4s;
+      backdrop-filter: blur(12px);
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      color: #f2b77c;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 22px;
+      border-radius: 30px;
+      background: #f2b77c;
+      color: #1f3b2c;
+      text-decoration: none;
+      font-size: 13px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #fff;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: rgba(0,0,0,0.3);
+      font-size: 14px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h2>Sapna Boutique</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">Collection</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- TITLE -->
+  <section class="title">
+    <h1>Our Premium Collection</h1>
+    <p>Handpicked styles for elegance & grace</p>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products">
+
+    <div class="card">
+      <img src="designer gown.jpg">
+      <div class="card-content">
+        <h3>Designer Gown</h3>
+        <p class="price">₹4,999</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="saree.jpg">    
+ 
+      <div class="card-content">
+        <h3>Silk Saree</h3>
+        <p class="price">₹3,499</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="bridal lehenga.jpg">
+      <div class="card-content">
+        <h3>Bridal Lehenga</h3>
+        <p class="price">₹8,999</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="party kurti.jpg" >
+      <div class="card-content">
+        <h3>Party Kurti</h3>
+        <p class="price">₹1,999</p>
+        <a href="#" class="btn">Add to Cart</a>
+      </div>
+    </div>
+
+  </section>
+
+   
+</body>
+</html>

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #183328, #1f3b2c);
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 60px;
+}
+
+.content {
+    max-width: 45%;
+}
+
+.brand {
+    letter-spacing: 6px;
+    font-size: 14px;
+    color: #f2b77c;
+}
+
+.content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.tagline {
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+.subtext {
+    margin: 25px 0 40px;
+    font-size: 16px;
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 14px 36px;
+    border-radius: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn.primary {
+    background: #f2b77c;
+    color: #1f3b2c;
+    box-shadow: 0 10px 30px rgba(242,183,124,0.4);
+}
+
+.btn.primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(242,183,124,0.6);
+}
+
+.btn.outline {
+    border: 1px solid #f2b77c;
+    color: #f2b77c;
+}
+
+.btn.outline:hover {
+    background: rgba(242,183,124,0.15);
+}
+
+.email {
+    margin-top: 40px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* IMAGE SIDE */
+.image-box {
+    position: relative;
+    max-width: 45%;
+}
+
+.image-box img {
+    width: 100%;
+    border-radius: 280px 0 0 280px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.4);
+}
+
+/* SHOP NOW CIRCLE */
+.shop-btn {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 130px;
+    height: 130px;
+    background: radial-gradient(circle, #f2b77c, #d89c5c);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #1f3b2c;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+.shop-btn:hover {
+    transform: translateY(-50%) scale(1.08);
+}
